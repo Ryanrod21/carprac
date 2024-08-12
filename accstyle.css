@@ -1,0 +1,147 @@
+html, body{
+    margin: 0;
+}
+.nav-and-top-text{
+    margin: 0 10px;
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 410px;
+    margin: 0 40px;
+}
+.top-nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: black;
+    font-size: 20px;
+}
+.top-nav ul{
+    display: flex;
+    gap: 30px;
+    list-style-type: none;
+    padding: 0;
+}
+.top-nav a{
+    color: white;
+    text-decoration: none;
+}
+.top-nav a:hover{
+    color: rgb(189, 189, 189);
+}
+.top-nav a:active{
+    color: grey;
+}
+h1{
+    font-size: 40px;
+    text-align: center;
+}
+.glyphicon-shopping-cart{
+    color: white;
+}
+.feature-products{
+    display: flex; 
+    flex-direction: row;
+    margin: 100px 40px 0 40px;
+    gap: 30px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.feature-product-two{
+    display: flex; 
+    flex-direction: row;
+    margin: 100px 40px 0 40px;
+    gap: 30px;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+.feature-product-two button:hover{
+    transform: rotate(30deg);
+}
+.glyphicon-briefcase{
+    position: absolute;
+    background: none;
+    margin: 0;
+}
+.first-item{
+    border-radius: 2px solid;
+}
+.first-item-image-button{
+    background-image: url(img/acc1.jpg);
+    width: 400px;
+    height: 500px;
+    background-size: 400px;
+    background-repeat: no-repeat;
+    background-position: 45% 20%;
+    position: relative;
+    
+    
+}
+
+.second-item-image-button{
+    background-image: url(img/acc2.jpg);
+    width: 400px;
+    height: 500px;
+    background-size: 500px;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    position: relative;
+    
+}
+.third-item-image-button{
+    background-image: url(img/acc3.jpg);
+    width: 400px;
+    height: 500px;
+    background-size: 400px;
+    background-repeat: no-repeat;
+    background-position: 80% 50%;
+}
+.fourth-item-image-button{
+    background-image: url(img/acc4.jpg);
+    width: 400px;
+    height: 500px;
+    background-size: 400px;
+    background-repeat: no-repeat;
+    background-position: 60% 50%;
+    
+}
+.fifth-item-image-button{
+    background-image: url(img/acc.5.jpg);
+    width: 400px;
+    height: 500px;
+    background-size: 400px;
+    background-repeat: no-repeat;
+    background-position: 55% 50%;
+    
+}
+.sixth-item-image-button{
+    background-image: url(img/acc6.jpg);
+    width: 400px;
+    height: 500px;
+    background-size: 500px;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    
+}
+.seventh-item-image-button{
+    background-image: url(img/acc7.jpg);
+    height: 500px;
+    width: 400px;
+    background-size: 400px;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    
+}
+.eighth-item-image-button{
+    background-image: url(img/acc8.jpg);
+    width: 400px;
+    height: 500px;
+    background-size: 300px;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    
+}
+.truck{
+    background-color: yellow;
+    border-radius: 100%;
+}

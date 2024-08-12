@@ -1,0 +1,209 @@
+html, body{
+    margin: 0;
+}
+.nav-and-top-text{
+    margin: 0 10px;
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 410px;
+    margin: 0 40px;
+}
+.top-nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: black;
+    font-size: 20px;
+}
+.top-nav ul{
+    display: flex;
+    gap: 30px;
+    list-style-type: none;
+    padding: 0;
+}
+.top-nav a{
+    color: white;
+    text-decoration: none;
+}
+.top-nav a:hover{
+    color: rgb(189, 189, 189);
+}
+.top-nav a:active{
+    color: grey;
+}
+h1{
+    font-size: 40px;
+    text-align: center;
+}
+
+
+
+
+
+.glyphicon-shopping-cart{
+    color: white;
+}
+.feature-products{
+    display: flex; 
+    flex-direction: row;
+    margin: 100px 40px 0 40px;
+    gap: 30px;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+.feature-product-two{
+    display: flex; 
+    flex-direction: row;
+    margin: 100px 40px 0 40px;
+    gap: 30px;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+.glyphicon-briefcase{
+    position: absolute;
+    background: none;
+    margin: 0;
+}
+
+
+.first-item-image-button{
+    background-image: url(img/shoe1.jpg);
+    width: 400px;
+    height: 500px;
+    background-size: 600px 500px;
+    background-repeat: no-repeat;
+    background-position: 55% 50%;
+    position: relative;
+}
+.first-item-image-button .button{
+    display: none;
+    position: absolute;
+    bottom: 5%;
+    left: 35%;
+}
+.first-item-image-button:hover .button{
+    display: block;
+    
+}
+.second-item-image-button{
+    background-image: url(img/shoes2.jpg);
+    width: 400px;
+    height: 500px;
+    background-size: 600px 100px;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    position: relative;
+    
+}
+.third-item-image-button{
+    background-image: url(img/shoe3.jpg);
+    width: 400px;
+    max-height: 500px;
+    min-height: 500px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 80% 50%;
+
+    transition: all 0.4s ease-in-out;
+}
+.third-item-image-button:hover{
+    transform: scale(1.2);
+}
+.fourth-item-image-button{
+    background-image: url(img/shoes4.jpg);
+    width: 400px;
+    height: 500px;
+    background-size: 600px 500px;
+    background-repeat: no-repeat;
+    background-position: 60% 50%;
+    
+}
+.fifth-item-image-button{
+    background-image: url(img/shoe5.jpg);
+    width: 400px;
+    height: 500px;
+    background-size: 600px 500px;
+    background-repeat: no-repeat;
+    background-position: 55% 50%;
+    
+}
+.sixth-item-image-button{
+    background-image: url(img/shoe6.jpg);
+    width: 400px;
+    height: 500px;
+    background-size: 600px 500px;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    
+}
+.seventh-item-image-button{
+    background-image: url(img/shoe7.jpg);
+    width: 400px;
+    height: 500px;
+    background-size: 600px 500px;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    
+}
+.eighth-item-image-button{
+    background-image: url(img/shoe8.jpg);
+    width: 400px;
+    height: 500px;
+    background-size: 600px 500px;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    
+}
+
+
+
+
+.second-container{
+    margin: 100px 40px 0;
+}
+.second-container-head{
+    margin-bottom: 40px;
+}
+.customer-experience{
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    justify-content: flex-start;
+}
+.customer-experience h2{
+    font-size: 20px;
+}
+.customer-experience h3{
+    font-size: 15px;
+}
+.customer-experience i{
+    background-color: yellow;
+    border-radius: 100%;
+    background-size: 1px;
+}
+.customer-shipping{
+    border: 3px solid black;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+.customer-warranty{
+    border: 3px solid black;
+    width: 400px;
+    flex-direction: column;
+    gap: 8px;
+}
+.safe-package{
+    border: 3px solid black;
+    width: 400px;
+    flex-direction: column;
+    gap: 8px;
+}
+.returns{
+    border: 3px solid black;
+    width: 400px;
+    flex-direction: column;
+    gap: 8px;
+}
