@@ -44,6 +44,11 @@ h1{
 .glyphicon-shopping-cart{
     color: white;
 }
+
+
+/* shoe body page  */
+
+
 .feature-products{
     display: flex; 
     flex-direction: row;
@@ -60,44 +65,55 @@ h1{
     flex-wrap: wrap;
     justify-content: flex-start;
 }
-.glyphicon-briefcase{
+/* .glyphicon-briefcase{
     position: absolute;
     background: none;
     margin: 0;
+} */
+.cat-sections{
+    width: 400px;
+    height: 500px;
+    object-fit: cover;
+    position: relative;
 }
-
-
+.button{
+    /* display: none; */
+    position: absolute;
+    
+}
+.button:hover{
+    display: block;
+    
+}
+.shoe-name-and-price{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between
+}
+.cat-item-text h2{
+    font-size: 20px;
+}
 .first-item-image-button{
     background-image: url(img/shoe1.jpg);
     width: 400px;
     height: 500px;
     background-size: 600px 500px;
     background-repeat: no-repeat;
-    background-position: 55% 50%;
-    position: relative;
-}
-.first-item-image-button .button{
-    display: none;
-    position: absolute;
-    bottom: 5%;
-    left: 35%;
-}
-.first-item-image-button:hover .button{
-    display: block;
-    
-}
+    background-position: 55% 50%; 
+} 
+
 .second-item-image-button{
-    background-image: url(img/shoes2.jpg);
+    /* background-image: url(img/shoes2.jpg);
     width: 400px;
     height: 500px;
     background-size: 600px 100px;
     background-repeat: no-repeat;
     background-position: 50% 50%;
     position: relative;
-    
+     */
 }
 .third-item-image-button{
-    background-image: url(img/shoe3.jpg);
+    /* background-image: url(img/shoe3.jpg);
     width: 400px;
     max-height: 500px;
     min-height: 500px;
@@ -105,54 +121,54 @@ h1{
     background-repeat: no-repeat;
     background-position: 80% 50%;
 
-    transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out; */
 }
 .third-item-image-button:hover{
     transform: scale(1.2);
 }
 .fourth-item-image-button{
-    background-image: url(img/shoes4.jpg);
+    /* background-image: url(img/shoes4.jpg);
     width: 400px;
     height: 500px;
     background-size: 600px 500px;
     background-repeat: no-repeat;
-    background-position: 60% 50%;
+    background-position: 60% 50%; */
     
 }
 .fifth-item-image-button{
-    background-image: url(img/shoe5.jpg);
+    /* background-image: url(img/shoe5.jpg);
     width: 400px;
     height: 500px;
     background-size: 600px 500px;
     background-repeat: no-repeat;
     background-position: 55% 50%;
-    
+     */
 }
 .sixth-item-image-button{
-    background-image: url(img/shoe6.jpg);
+    /* background-image: url(img/shoe6.jpg);
     width: 400px;
     height: 500px;
     background-size: 600px 500px;
     background-repeat: no-repeat;
-    background-position: 50% 50%;
+    background-position: 50% 50%; */
     
 }
 .seventh-item-image-button{
-    background-image: url(img/shoe7.jpg);
+    /* background-image: url(img/shoe7.jpg);
     width: 400px;
     height: 500px;
     background-size: 600px 500px;
     background-repeat: no-repeat;
-    background-position: 50% 50%;
+    background-position: 50% 50%; */
     
 }
 .eighth-item-image-button{
-    background-image: url(img/shoe8.jpg);
+    /* background-image: url(img/shoe8.jpg);
     width: 400px;
     height: 500px;
     background-size: 600px 500px;
     background-repeat: no-repeat;
-    background-position: 50% 50%;
+    background-position: 50% 50%; */
     
 }
 
